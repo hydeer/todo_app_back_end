@@ -2,14 +2,14 @@
 
 one:
   description: MyString
-  due_date: 2017-06-18 17:21:13
-  class: MyString
-  time_estimate_seconds: 1
+  due_date: 2017-06-18 18:15:13
+  subject: MyString
+  time_estimate_min: 1
   is_complete: false
 
 two:
   description: MyString
-  due_date: 2017-06-18 17:21:13
-  class: MyString
-  time_estimate_seconds: 1
+  due_date: 2017-06-18 18:15:13
+  subject: MyString
+  time_estimate_min: 1
   is_complete: false
