@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170618172113) do
+ActiveRecord::Schema.define(version: 20170618182500) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,11 +19,11 @@ ActiveRecord::Schema.define(version: 20170618172113) do
   create_table "todos", force: :cascade do |t|
     t.string   "description"
     t.datetime "due_date"
-    t.string   "class"
-    t.integer  "time_estimate_seconds"
+    t.string   "subject"
+    t.integer  "time_estimate_min"
     t.boolean  "is_complete"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
 end
