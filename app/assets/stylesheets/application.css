@@ -40,15 +40,18 @@ body{
     width:50px;
 }
 
-tableEnrix {
+tableE {
     font-family: sans-serif;
+    font-size: 100px;
     border-collapse: collapse;
     width: 100%;
+
 }
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align: center;
     padding: 3px;
      font-size: 25px;
 }
+
