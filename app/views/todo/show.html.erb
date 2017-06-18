@@ -1,15 +1,13 @@
+<h3>More</h3>
 <center>
-  <h1>MORE</h1>
-       <input type="checkbox">Assignments
-        <input type="checkbox">Description
-        <input type="checkbox">Subject
-        <input type="checkbox">Due Date
-        
-        <li><%=@todo_description%></li>
-        <li><%=@todo_subject%></li>
-        <li><%=@todo_time_estimate_min=%></li>
-        <li><%=@todo_is_complete%></li>
-        <li><%=@todo_due_date%></li>
+  
+  <h4>Todo #<%= params[:id] %></h4>
+  
+        <h1>Subject: <%=@todo_subject%></h1>
+        <li>Assignment: <%=@todo_description%></li>
+        <li>Duration: <%=@todo_time_estimate_min=%></li>
+        <li><input type= "checkbox"></value><%=@todo_is_complete%></li>
+        <li>Due date: <%=@todo_due_date%></li>
       
-  <h3>Todo #<%= params[:id] %></h3>
+  
       </center>
